@@ -1,0 +1,26 @@
+#name: "lili"
+#pwd: "123"
+#
+#bool1: 12.33
+#bool2: True
+#
+#data8:
+#data9: null
+#data10: Null
+#
+##不支持python格式none
+##data11: none
+##data: None
+#data33: 2020-11-11 12:12:12
+#data44: 12:13:13
+#data55: 2020-06-13
+#data66: 2020-06-02 02:02:02
+
+
+info: &data
+  name: "lili"
+  phon: "22222222"
+
+adder:
+  <<: *data
+  detail: "黄龙路10号"
